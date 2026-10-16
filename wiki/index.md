@@ -32,6 +32,7 @@
 | --- | --- |
 | [摄取、问答与检查](guides/workflows.md) | 持续维护 Wiki 的具体步骤与请求示例 |
 | [可复现研究流程](guides/research-workflow.md) | 从可证伪假设到实验记录和复盘 |
+| [跳空动量因子挖掘](projects/gap-momentum-mining.md) | 首轮16个候选，最多4轮；等待市场与历史数据 |
 | [最小回测器实践规格](projects/minimal-backtester.md) | 首个离线开发项目的范围、时序和验收用例 |
 | [底层 CTP 最小 Demo](projects/ctp-minimal-demo.md) | TD/MD 连接登录、订阅与行情打印；离线验证和真实联调边界 |
 
@@ -39,6 +40,7 @@
 
 | 页面 | 内容 |
 | --- | --- |
+| [接口、引擎与三类策略应用](guides/veighna-system-layers.md) | 从极简 CTP Demo 理解平台分层，附源码定位与四次实践建议 |
 | [三模块源码学习入口](guides/veighna-source-reading.md) | 模块拼接方式、推荐阅读顺序和第一轮结论 |
 | [vnpy 平台核心导读](modules/vnpy.md) | 事件、MainEngine、OMS、数据对象和开平转换 |
 | [vnpy_ctp 导读](modules/vnpy-ctp.md) | 原生桥、行情/交易连接、时间处理、报单与回报 |

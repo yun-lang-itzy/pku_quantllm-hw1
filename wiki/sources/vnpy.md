@@ -47,3 +47,8 @@ tags: ["veighna", "source-reading"]
 这份来源证明固定版本的代码行为和声明，不证明策略收益、外部交易规则永远成立或全部运行路径已测试。本次未安装平台依赖，也未运行完整 VeighNa。
 
 消化入口：[vnpy 模块导读](../modules/vnpy.md) · [源码学习总览](../guides/veighna-source-reading.md) · [事件与订单链路](../concepts/veighna-event-flow.md)
+
+
+## 2026-10-16 补充阅读：策略应用文档
+
+局部阅读快照内 [portfolio_strategy.md](../../raw/sources/vnpy/docs/community/app/portfolio_strategy.md) 的策略回调、set_target/rebalance_portfolio 及缺失 bars 处理说明；[spread_trading.md](../../raw/sources/vnpy/docs/community/app/spread_trading.md) 的价差定义、价格与交易乘数、主动/被动腿、策略与算法分工说明。用于 [系统分层学习](../guides/veighna-system-layers.md)。两个独立应用仓库源码尚未摄取，文档示例不能当作已验证实现；未运行这些应用。

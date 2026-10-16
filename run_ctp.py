@@ -60,6 +60,8 @@ def setup() -> int:
         with tempfile.TemporaryDirectory(prefix='ctp-build-', dir=work) as temporary:
             build = Path(temporary) / 'vnpy_ctp'
             shutil.copytree(source, build, symlinks=True)
+            if sys.platform == 'darwin':
+                subprocess.run([str(interpreter), str(ROOT / 'scripts/prepare_ctp_macos.py'), str(build)], check=True)
             subprocess.run(command + [str(build)], cwd=ROOT, check=True)
     else:
         subprocess.run(command + ['-r', str(DEMO_DIR / 'requirements.txt')], cwd=ROOT, check=True)

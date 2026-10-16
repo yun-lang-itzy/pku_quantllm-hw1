@@ -10,7 +10,7 @@ tags: ["ctp", "demo", "source-reading"]
 
 # 实践 002：底层 CTP 最小连接与行情 Demo
 
-已实现代码、编译验证和离线测试，真实 SIMNOW 登录与行情验收仍待完成。代码位于 [experiments/002-ctp-demo](../../experiments/002-ctp-demo/README.md)，入口是 [demo.py](../../experiments/002-ctp-demo/demo.py)。
+已实现代码、编译验证和离线测试，本机真实登录、自动选约、订阅及快照回调已通过，盘中持续更新仍待验收。代码位于 [experiments/002-ctp-demo](../../experiments/002-ctp-demo/README.md)，入口是 [demo.py](../../experiments/002-ctp-demo/demo.py)。
 
 本地迁移已增加项目根目录的 [run_ctp.py](../../run_ctp.py) 与 [本地说明](../../LOCAL_RUN.md)：`--setup` 在项目 `.venv` 安装原生扩展、保留已有本地账号配置，默认启动持续输出；`--verify` 仅检查扩展，不连接服务器。
 
@@ -38,9 +38,9 @@ tags: ["ctp", "demo", "source-reading"]
 - 固定源码在隔离 Linux/Python 3.12 环境成功构建，原始快照不变。
 - 实际加载两个原生扩展并创建子类；本地回环的 create/init/exit 探测完成。
 - 28 个无网络单元测试通过，覆盖正常链路、失败、报价输出、超时、脱敏、清理、持续运行与自动合约选择。
-- 真实 SIMNOW 联调未完成：当前环境没有到 TD/MD 的 TCP 通道，配置的 TCP 代理端口也不可连接。
+- 本机真实联调：TD/MD 登录成功，5 个自动选择合约全部订阅并各收到一条快照；午间未观察到后续更新。
 - 不传 `--symbols` 时在柜台返回的期货快照范围内按成交量选择 5 个不同品种；查询不可用时使用 rb2701/ag2612/au2612/i2701/m2701 候选池并警告，该池未经实时活跃度核验。可手动指定合约。
-- 原生 `reqQryDepthMarketData/onRspQryDepthMarketData` 已核对存在；真实柜台是否支持全量快照仍待联调。
+- 原生 `reqQryDepthMarketData/onRspQryDepthMarketData` 已核对存在；本机已收到柜台全量快照查询结果并完成按成交量选约。
 
 完整环境、命令与边界见 [实验报告](../../experiments/002-ctp-demo/report.md)。账号配置仅保存在 Git 忽略的本地文件，Wiki 不记录密码或授权码。
 
@@ -49,3 +49,10 @@ tags: ["ctp", "demo", "source-reading"]
 在可直达 SIMNOW 前置的环境中，直接运行 demo.py，确认自动选出的代码与成交量、TD/MD 登录、订阅确认、持续真实行情，以及 Ctrl+C 正常释放。只有显式有界调试时才设置 --max-ticks/--duration；默认不自动结束。若只有订阅成功却无 tick，检查时段、合约和柜台状态。成功后追加实际证据，保持模拟与真实结果分开。
 
 相关页面：[CTP 模块导读](../modules/vnpy-ctp.md) · [行情时间](../concepts/market-data.md) · [学习看板](../learning-dashboard.md) · [问题清单](../open-questions.md)
+
+
+## 单次价格触发交易扩展
+
+新增 [交易入口与说明](../../experiments/002-ctp-demo/TRADING.md)：TD 结算确认、合约查询、最新价严格超过阈值后按卖一价买入开仓 1 手，每次运行一次，10 秒未完成申请撤单，不自动追单或平仓。默认 dry-run；实际 SIMNOW 委托需要显式开关和明确的合约、阈值。
+
+2026-10-16 13:48 本机真实 dry-run 已通过：m2701 结算/合约确认成功，20 秒接收 41 条持续更新行情，阈值 1 仅用于测试、触发一次意图、报单次数为 0。此前午间尚未验证的持续行情更新现已补验。47 项离线测试通过，实际柜台报单/成交/撤单仍待确认参数后验收，不能用离线回报替代。证据和运行方法见上述说明。

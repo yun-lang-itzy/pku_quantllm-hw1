@@ -60,3 +60,5 @@ tags: ["veighna", "source-reading"]
 后续待验证事项见 [问题清单](../open-questions.md)，实际个人学习进度在 [学习看板](../learning-dashboard.md) 记录。
 
 返回 [Wiki 索引](../index.md)
+
+下一阶段：[从 CTP Demo 到完整系统分层](veighna-system-layers.md)，学习标准化接口、事件总线、OMS、指令路由及 CTA/投组/价差应用。

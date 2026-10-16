@@ -1,0 +1,54 @@
+[MODE] DRY-RUN 不发送委托；m2701 最新价 > 1.0；买入开仓 1 手，10 秒未完成申请撤单
+[TD] 网络连接成功，发送客户端认证
+[TD] 认证成功，发送账号登录
+[TD] 登录成功，交易日=20261016
+[TD] 结算确认成功
+[TD] 合约确认 m2701 DCE 最小变动价位=1.0
+[MD] 网络连接成功，发送行情登录
+[MD] 登录成功，发送合约订阅
+[MD] 订阅成功: m2701
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:29", "millisecond": 0, "last_price": 3293.0, "volume": 995778, "bid_price_1": 3292.0, "bid_volume_1": 451, "ask_price_1": 3293.0, "ask_volume_1": 1389}
+[READY] 等待最新价超过阈值；Ctrl+C 退出
+[INTENT] 最新价 3293.0 > 1.0；m2701 买入开仓 1 手，限价=3293.0
+[DRY-RUN] 仅打印意图，未调用 reqOrderInsert；本次不再触发
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:29", "millisecond": 500, "last_price": 3293.0, "volume": 995778, "bid_price_1": 3292.0, "bid_volume_1": 517, "ask_price_1": 3293.0, "ask_volume_1": 1389}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:30", "millisecond": 0, "last_price": 3293.0, "volume": 995780, "bid_price_1": 3292.0, "bid_volume_1": 517, "ask_price_1": 3293.0, "ask_volume_1": 1387}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:30", "millisecond": 500, "last_price": 3292.0, "volume": 995783, "bid_price_1": 3292.0, "bid_volume_1": 518, "ask_price_1": 3293.0, "ask_volume_1": 1390}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:31", "millisecond": 0, "last_price": 3292.0, "volume": 995785, "bid_price_1": 3292.0, "bid_volume_1": 520, "ask_price_1": 3293.0, "ask_volume_1": 1391}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:31", "millisecond": 500, "last_price": 3293.0, "volume": 995786, "bid_price_1": 3292.0, "bid_volume_1": 520, "ask_price_1": 3293.0, "ask_volume_1": 1390}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:32", "millisecond": 0, "last_price": 3293.0, "volume": 995786, "bid_price_1": 3292.0, "bid_volume_1": 520, "ask_price_1": 3293.0, "ask_volume_1": 1391}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:32", "millisecond": 500, "last_price": 3293.0, "volume": 995807, "bid_price_1": 3292.0, "bid_volume_1": 500, "ask_price_1": 3293.0, "ask_volume_1": 1390}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:33", "millisecond": 0, "last_price": 3293.0, "volume": 995807, "bid_price_1": 3292.0, "bid_volume_1": 501, "ask_price_1": 3293.0, "ask_volume_1": 1389}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:33", "millisecond": 500, "last_price": 3292.0, "volume": 995809, "bid_price_1": 3292.0, "bid_volume_1": 503, "ask_price_1": 3293.0, "ask_volume_1": 1344}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:34", "millisecond": 0, "last_price": 3292.0, "volume": 995809, "bid_price_1": 3292.0, "bid_volume_1": 503, "ask_price_1": 3293.0, "ask_volume_1": 1341}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:34", "millisecond": 500, "last_price": 3292.0, "volume": 995809, "bid_price_1": 3292.0, "bid_volume_1": 502, "ask_price_1": 3293.0, "ask_volume_1": 1338}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:35", "millisecond": 0, "last_price": 3292.0, "volume": 995810, "bid_price_1": 3292.0, "bid_volume_1": 501, "ask_price_1": 3293.0, "ask_volume_1": 1334}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:35", "millisecond": 500, "last_price": 3292.0, "volume": 995810, "bid_price_1": 3292.0, "bid_volume_1": 502, "ask_price_1": 3293.0, "ask_volume_1": 1334}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:36", "millisecond": 0, "last_price": 3292.0, "volume": 995810, "bid_price_1": 3292.0, "bid_volume_1": 502, "ask_price_1": 3293.0, "ask_volume_1": 1335}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:36", "millisecond": 500, "last_price": 3293.0, "volume": 995811, "bid_price_1": 3292.0, "bid_volume_1": 505, "ask_price_1": 3293.0, "ask_volume_1": 1334}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:37", "millisecond": 0, "last_price": 3292.0, "volume": 995895, "bid_price_1": 3292.0, "bid_volume_1": 424, "ask_price_1": 3293.0, "ask_volume_1": 1331}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:37", "millisecond": 500, "last_price": 3292.0, "volume": 995895, "bid_price_1": 3292.0, "bid_volume_1": 425, "ask_price_1": 3293.0, "ask_volume_1": 1331}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:38", "millisecond": 0, "last_price": 3292.0, "volume": 995895, "bid_price_1": 3292.0, "bid_volume_1": 426, "ask_price_1": 3293.0, "ask_volume_1": 1333}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:38", "millisecond": 500, "last_price": 3292.0, "volume": 996323, "bid_price_1": 3291.0, "bid_volume_1": 2180, "ask_price_1": 3292.0, "ask_volume_1": 261}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:39", "millisecond": 0, "last_price": 3292.0, "volume": 996333, "bid_price_1": 3291.0, "bid_volume_1": 1837, "ask_price_1": 3292.0, "ask_volume_1": 370}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:39", "millisecond": 500, "last_price": 3292.0, "volume": 996333, "bid_price_1": 3291.0, "bid_volume_1": 1764, "ask_price_1": 3292.0, "ask_volume_1": 334}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:40", "millisecond": 0, "last_price": 3292.0, "volume": 996335, "bid_price_1": 3291.0, "bid_volume_1": 1745, "ask_price_1": 3292.0, "ask_volume_1": 380}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:40", "millisecond": 500, "last_price": 3292.0, "volume": 996336, "bid_price_1": 3291.0, "bid_volume_1": 1632, "ask_price_1": 3292.0, "ask_volume_1": 384}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:41", "millisecond": 0, "last_price": 3291.0, "volume": 996338, "bid_price_1": 3291.0, "bid_volume_1": 1611, "ask_price_1": 3292.0, "ask_volume_1": 398}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:41", "millisecond": 500, "last_price": 3292.0, "volume": 996341, "bid_price_1": 3291.0, "bid_volume_1": 1613, "ask_price_1": 3292.0, "ask_volume_1": 399}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:42", "millisecond": 0, "last_price": 3292.0, "volume": 996343, "bid_price_1": 3291.0, "bid_volume_1": 1615, "ask_price_1": 3292.0, "ask_volume_1": 399}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:42", "millisecond": 500, "last_price": 3291.0, "volume": 996345, "bid_price_1": 3291.0, "bid_volume_1": 1614, "ask_price_1": 3292.0, "ask_volume_1": 404}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:43", "millisecond": 0, "last_price": 3292.0, "volume": 996346, "bid_price_1": 3291.0, "bid_volume_1": 1614, "ask_price_1": 3292.0, "ask_volume_1": 405}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:43", "millisecond": 500, "last_price": 3292.0, "volume": 996346, "bid_price_1": 3291.0, "bid_volume_1": 1614, "ask_price_1": 3292.0, "ask_volume_1": 408}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:44", "millisecond": 0, "last_price": 3291.0, "volume": 996349, "bid_price_1": 3291.0, "bid_volume_1": 1609, "ask_price_1": 3292.0, "ask_volume_1": 692}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:44", "millisecond": 500, "last_price": 3291.0, "volume": 996350, "bid_price_1": 3291.0, "bid_volume_1": 1211, "ask_price_1": 3292.0, "ask_volume_1": 751}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:45", "millisecond": 0, "last_price": 3292.0, "volume": 996406, "bid_price_1": 3291.0, "bid_volume_1": 890, "ask_price_1": 3292.0, "ask_volume_1": 824}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:45", "millisecond": 500, "last_price": 3292.0, "volume": 996415, "bid_price_1": 3291.0, "bid_volume_1": 967, "ask_price_1": 3292.0, "ask_volume_1": 909}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:46", "millisecond": 0, "last_price": 3292.0, "volume": 996416, "bid_price_1": 3291.0, "bid_volume_1": 1101, "ask_price_1": 3292.0, "ask_volume_1": 910}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:46", "millisecond": 500, "last_price": 3291.0, "volume": 996424, "bid_price_1": 3291.0, "bid_volume_1": 1098, "ask_price_1": 3292.0, "ask_volume_1": 912}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:47", "millisecond": 0, "last_price": 3291.0, "volume": 996434, "bid_price_1": 3291.0, "bid_volume_1": 975, "ask_price_1": 3292.0, "ask_volume_1": 908}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:47", "millisecond": 500, "last_price": 3291.0, "volume": 996434, "bid_price_1": 3291.0, "bid_volume_1": 975, "ask_price_1": 3292.0, "ask_volume_1": 911}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:48", "millisecond": 0, "last_price": 3291.0, "volume": 996435, "bid_price_1": 3291.0, "bid_volume_1": 974, "ask_price_1": 3292.0, "ask_volume_1": 910}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:48", "millisecond": 500, "last_price": 3291.0, "volume": 996435, "bid_price_1": 3291.0, "bid_volume_1": 977, "ask_price_1": 3292.0, "ask_volume_1": 947}
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "13:48:49", "millisecond": 0, "last_price": 3291.0, "volume": 996435, "bid_price_1": 3291.0, "bid_volume_1": 977, "ask_price_1": 3292.0, "ask_volume_1": 973}
+[EXIT] 行情=41；触发=True；实际报单尝试=False

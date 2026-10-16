@@ -43,7 +43,7 @@ tags: ["quant", "learning"]
 | V007 | 异常包装关闭状态但未自行撤单；初始化/启动随后设置状态 | 故障注入未执行；验证回调异常后的标记、在途单与恢复行为 |
 | V008 | CTP API 原生编译、数据库驱动与三模块兼容性 | CTP 6.7.11.5 已在隔离 Linux/Python 3.12 环境构建并完成原生加载/生命周期验证；数据库和三模块完整兼容测试仍待执行 |
 
-Demo 的后续验收：默认按柜台期货快照成交量选择 5 个不同品种并持续运行；可选查询不可用时会带警告回退候选池。当前云环境没有到 SIMNOW TD/MD 的 TCP 通道，尚未验证真实自动选约、认证、登录、订阅或 tick。完成条件与运行方法见 [底层 CTP Demo](projects/ctp-minimal-demo.md)。
+Demo 的后续验收：默认按柜台期货快照成交量选择 5 个不同品种并持续运行；可选查询不可用时会带警告回退候选池。本机已验证真实自动选约、认证、TD/MD 登录、订阅及 5 条快照回调；13:48 已补验 m2701 连续 41 条盘中 tick，交易扩展的结算确认、合约查询和 dry-run 单次触发也已通过；实际仿真报单/成交/撤单仍待确认参数后验收。完成条件与运行方法见 [底层 CTP Demo](projects/ctp-minimal-demo.md)。
 
 源码与函数定位：[实盘与回测对照](concepts/cta-live-vs-backtest.md)、[CTA 导读](modules/vnpy-ctastrategy.md)、[CTP 导读](modules/vnpy-ctp.md)。
 

@@ -80,7 +80,7 @@ nc -vz -w 5 182.254.243.31 30011
 
 端口可达后，依次核对 TD 登录、MD 登录、订阅确认和实际 tick。只看到网络连接或订阅成功不等于已经收到行情；还需要有效合约、柜台开放时段与正确账号/SDK 模式。
 
-云环境中已完成 Linux 原生编译与离线验证，但尚未验证你的本机环境、Windows/macOS 构建或真实 SIMNOW 登录/行情。迁移后的实际联调结果需在本机运行后确认。
+本机 macOS arm64 已完成适配编译、真实登录、自动选约、订阅及 5 条快照回调；午间没有后续更新，盘中持续行情仍待验证，Windows 尚未验证。详见 [报告](experiments/002-ctp-demo/report.md)。本机可直接执行 `.venv/bin/python run_ctp.py`，默认持续运行；系统 Python 3.9 无法使用此入口。macOS 构建自动应用 [适配脚本](scripts/prepare_ctp_macos.py)，仅修改临时副本，实际厂商 SDK 为 6.7.7，适配范围为当前 Demo。
 
 ## 离线检查
 
@@ -90,3 +90,5 @@ python scripts/wiki_lint.py
 ```
 
 测试不连接交易服务器。完整开发证据见 [实验报告](experiments/002-ctp-demo/report.md)。
+
+交易扩展入口与最新验证结果见 [单次价格触发下单](experiments/002-ctp-demo/TRADING.md)。13:48 已补验 m2701 盘中持续行情与 dry-run；行情入口 `run_ctp.py` 不会下单。

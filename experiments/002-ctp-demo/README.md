@@ -25,7 +25,7 @@ MD init → onFrontConnected → reqUserLogin → onRspUserLogin
 /workspace/work/ctp-demo/venv/bin/python experiments/002-ctp-demo/demo.py
 ```
 
-**当前云环境没有到 SIMNOW 的 TCP 通道，尚未完成真实登录或接收行情。** 以上命令需要先具备到配置中 TD/MD 地址的网络连通性。TCP 代理探测在连接环境代理时即被拒绝，不能据此判断 SIMNOW 服务器是否在线。
+**本机 macOS 已验证真实登录、自动选约、订阅与 5 条快照回调，盘中持续更新仍待验证，见 [报告](report.md)。** 原云环境没有到 SIMNOW 的 TCP 通道。 以上命令需要先具备到配置中 TD/MD 地址的网络连通性。TCP 代理探测在连接环境代理时即被拒绝，不能据此判断 SIMNOW 服务器是否在线。
 
 **默认持续输出收到的行情，没有条数或时长上限，按 Ctrl+C 退出。** 休市或暂时没有新 tick 时会继续等待；不会生成模拟行情充数。连接、认证、登录、订阅等发生错误时仍会说明原因后退出。
 
@@ -129,3 +129,5 @@ python3 -m unittest discover -s experiments/002-ctp-demo -p 'test_*.py' -v
 28 个测试已通过，包括主链、拒绝认证、登录/订阅错误、返回非零、日期/无效报价、脱敏、超时、主线程清理与清理失败，以及默认参数不设退出限制、连续打印 8 条后继续运行、空闲等待、Ctrl+C 清理、成交量排序/品种去重、排名传递到订阅、查询失败/超时回退和晚到回报隔离。真实原生扩展也已编译、加载，并在仅本地回环的探测中完成 create/init/exit；这不等于 SIMNOW 登录已成功。
 
 完整证据和限制见 [实验报告](report.md)；知识沉淀见 [Wiki 实践页](../../wiki/projects/ctp-minimal-demo.md)。
+
+后续扩展：[单次价格触发交易](TRADING.md)。2026-10-16 13:48 已补验 41 条盘中连续行情及 dry-run 单次触发，实际报单/成交/撤单仍待联调。原行情入口保持只读。

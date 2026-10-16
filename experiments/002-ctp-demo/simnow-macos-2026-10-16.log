@@ -1,0 +1,25 @@
+[RUN] 自动选取合约；按显式时长/条数限制运行
+[TD] 网络连接成功，发送客户端认证
+[TD] 认证成功，发送账号登录
+[TD] 登录成功，交易日=20261016
+[SELECT] 查询柜台成交量，选取最多 5 个不同品种的期货合约
+[SELECT] {"symbol": "MA701", "volume": 1245746, "open_interest": 822956.0, "trading_day": "20261016"}
+[SELECT] {"symbol": "v2701", "volume": 1073054, "open_interest": 1113221.0, "trading_day": "20261016"}
+[SELECT] {"symbol": "m2701", "volume": 940778, "open_interest": 2336103.0, "trading_day": "20261016"}
+[SELECT] {"symbol": "SA701", "volume": 843576, "open_interest": 1373333.0, "trading_day": "20261016"}
+[SELECT] {"symbol": "eg2611", "volume": 764895, "open_interest": 256429.0, "trading_day": "20261016"}
+[SUBSCRIBE] MA701 v2701 m2701 SA701 eg2611
+[MD] 网络连接成功，发送行情登录
+[MD] 登录成功，发送合约订阅
+[MD] 订阅成功: MA701
+{"type": "tick", "symbol": "MA701", "trading_day": "20261016", "action_day": "20261016", "time": "11:30:00", "millisecond": 0, "last_price": 3212.0, "volume": 1245746, "bid_price_1": 3211.0, "bid_volume_1": 3, "ask_price_1": 3212.0, "ask_volume_1": 71}
+[MD] 订阅成功: v2701
+{"type": "tick", "symbol": "v2701", "trading_day": "20261016", "action_day": "20261016", "time": "11:30:00", "millisecond": 0, "last_price": 4893.0, "volume": 1073054, "bid_price_1": 4893.0, "bid_volume_1": 190, "ask_price_1": 4894.0, "ask_volume_1": 38}
+[MD] 订阅成功: m2701
+{"type": "tick", "symbol": "m2701", "trading_day": "20261016", "action_day": "20261016", "time": "11:30:00", "millisecond": 0, "last_price": 3297.0, "volume": 940778, "bid_price_1": 3296.0, "bid_volume_1": 93, "ask_price_1": 3297.0, "ask_volume_1": 47}
+[MD] 订阅成功: SA701
+{"type": "tick", "symbol": "SA701", "trading_day": "20261016", "action_day": "20261016", "time": "11:30:00", "millisecond": 0, "last_price": 949.0, "volume": 843576, "bid_price_1": 947.0, "bid_volume_1": 1190, "ask_price_1": 949.0, "ask_volume_1": 2021}
+[MD] 订阅成功: eg2611
+{"type": "tick", "symbol": "eg2611", "trading_day": "20261016", "action_day": "20261016", "time": "11:29:59", "millisecond": 500, "last_price": 5283.0, "volume": 764895, "bid_price_1": 5283.0, "bid_volume_1": 37, "ask_price_1": 5284.0, "ask_volume_1": 2}
+[READY] 等待行情，按 Ctrl+C 退出；订阅成功不保证休市时有新行情
+[EXIT] 已打印行情: 5 条
