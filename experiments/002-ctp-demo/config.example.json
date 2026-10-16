@@ -1,0 +1,10 @@
+{
+  "userid": "YOUR_SIMNOW_USERID",
+  "password": "",
+  "brokerid": "9999",
+  "td_address": "tcp://182.254.243.31:30001",
+  "md_address": "tcp://182.254.243.31:30011",
+  "appid": "simnow_client_test",
+  "auth_code": "",
+  "production_mode": false
+}

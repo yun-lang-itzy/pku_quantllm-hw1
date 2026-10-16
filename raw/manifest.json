@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S001",
+      "title": "LLM Wiki",
+      "path": "raw/sources/llm-wiki.md",
+      "sha256": "d1c5f89f21fc8f2671f0c5479ccfaadfbca1ce9fb441867172d0852529861169",
+      "ingested": "2026-10-16",
+      "kind": "methodology",
+      "origin": "user-upload:llm-wiki.md",
+      "note": "作者、原始发布日期与外部原址未提供；不是量化交易知识来源。"
+    },
+    {
+      "id": "S002",
+      "title": "VeighNa vnpy source snapshot",
+      "path": "raw/sources/vnpy.snapshot.json",
+      "sha256": "bf06f6ccabc1e40819a8bef90641a24aea437af4ded5235f84044a50b7f8a308",
+      "ingested": "2026-10-16",
+      "kind": "repository-snapshot",
+      "origin": "https://github.com/vnpy/vnpy.git",
+      "commit": "c6e231caf32b7fc97e6459817fff66458cf7e7c4",
+      "snapshot_root": "raw/sources/vnpy",
+      "note": "已读取的核心文件与未读范围见对应 Wiki 来源摘要；此索引登记逐文件原始字节哈希。"
+    },
+    {
+      "id": "S003",
+      "title": "VeighNa vnpy_ctp source snapshot",
+      "path": "raw/sources/vnpy_ctp.snapshot.json",
+      "sha256": "4c48cb396c524667149011fd24b447a28dabca84f5324299129a532d16fdd5cc",
+      "ingested": "2026-10-16",
+      "kind": "repository-snapshot",
+      "origin": "https://github.com/vnpy/vnpy_ctp.git",
+      "commit": "1be9bfb5292208e5c258cc769c90be4abe83f9a9",
+      "snapshot_root": "raw/sources/vnpy_ctp",
+      "note": "已读取的核心文件与未读范围见对应 Wiki 来源摘要；此索引登记逐文件原始字节哈希。"
+    },
+    {
+      "id": "S004",
+      "title": "VeighNa vnpy_ctastrategy source snapshot",
+      "path": "raw/sources/vnpy_ctastrategy.snapshot.json",
+      "sha256": "93c217c2ab0f29d89a4dd3210efcae339ae461ee3a794faa780b700ae6fab20a",
+      "ingested": "2026-10-16",
+      "kind": "repository-snapshot",
+      "origin": "https://github.com/vnpy/vnpy_ctastrategy.git",
+      "commit": "7a8768de9784dda35a7b261a7ade1dbfbff50919",
+      "snapshot_root": "raw/sources/vnpy_ctastrategy",
+      "note": "已读取的核心文件与未读范围见对应 Wiki 来源摘要；此索引登记逐文件原始字节哈希。"
+    }
+  ]
+}

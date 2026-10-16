@@ -1,0 +1,3 @@
+# Install with --no-deps: the demo loads only the native MdApi/TdApi extensions.
+# The exact source revision is pinned because a matching Linux wheel may be absent.
+vnpy_ctp @ git+https://github.com/vnpy/vnpy_ctp.git@1be9bfb5292208e5c258cc769c90be4abe83f9a9

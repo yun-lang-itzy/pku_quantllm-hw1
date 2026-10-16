@@ -1,0 +1,1273 @@
+{
+  "schema_version": 1,
+  "name": "vnpy",
+  "origin": "https://github.com/vnpy/vnpy.git",
+  "commit": "c6e231caf32b7fc97e6459817fff66458cf7e7c4",
+  "git_tree": "173e64b0e20b767e858d97bcf0c358bc3363376e",
+  "commit_time": "2026-10-06T17:38:50+08:00",
+  "downloaded": "2026-10-16",
+  "snapshot_root": "raw/sources/vnpy",
+  "method": "shallow Git clone followed by complete git archive export; no upstream files modified",
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "sha256": "4e2197e54b6c64584f38e8d9827f9795f6b434fbf5a12d54e2c1c65188f746d6",
+      "bytes": 8,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha256": "7ae381059bcfaeab7f1b2de4a665f6696c80c8c5e4f2a3da69297a66b3dbe99f",
+      "bytes": 750,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "sha256": "53e9b76d102b27c42e6ba884704f68992acff958bfedb1853564f496e3838e25",
+      "bytes": 367,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "e0fd3a512ee2b5d732ebcd8b2470e5db13f62b4d19fac79a0d117e2b14cc3e7e",
+      "bytes": 178,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha256": "b4232baea3f482b7bd2445f14b07922db85980b21dc801f9554437f49af750ea",
+      "bytes": 304,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/workflows/pythonapp.yml",
+      "sha256": "ad3eacff9fa34ea5b8f566da36a1527df0d1a4e64bef1e6545412e90145bb173",
+      "bytes": 1042,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "981331ff49e457729be8b241a86c5f04586b4fc2750fd4d657393109d13f07af",
+      "bytes": 376,
+      "git_mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "59ed5009d90ed9dbb3c7c9460a1954d7a20a5c95471915516259ba67fb56becc",
+      "bytes": 42738,
+      "git_mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "81294e5bcba945564df8586f1d789b016001b7b43eb4de97736679dd882cf191",
+      "bytes": 1087,
+      "git_mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha256": "373d5bf6472de16a9b40aa10de5741f38fd88cd6b03d74451796b43e7cd2ad2c",
+      "bytes": 20730,
+      "git_mode": "100644"
+    },
+    {
+      "path": "README_ENG.md",
+      "sha256": "8081bb11f4e7c95064b7bc8e65230ed76e6c16764e34a4ca6132fed925ff1d5d",
+      "bytes": 24080,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_static/custom.css",
+      "sha256": "deff6f8163956ca000f4a960bbdf0e13921d1e89e2000dcd3e77ed08a185d287",
+      "bytes": 2255,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_static/vendor.css",
+      "sha256": "2a535d362e9e21f2351a28fa5e7bfde04ec04665f3647a2aca90476fbfd100b6",
+      "bytes": 551622,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_static/vnpy.ico",
+      "sha256": "0845ee1e5e5f968b426deb11451f3951aadaabe2f7cbec3981af249518049f52",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_templates/layout.html",
+      "sha256": "534099d543959ff4dcb384c4b3d7c4577b1675ada55063cb2297b2c6a9d22d4f",
+      "bytes": 5227,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_templates/relations.html",
+      "sha256": "84f3e4202088ed077579d4999cd6d13cbba87761728b2d341e4c1909f655110c",
+      "bytes": 689,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_templates/searchbox.html",
+      "sha256": "889d1f1d676373eeab25561e68756c84d66f52e44891f963d9eb687b686e2fb2",
+      "bytes": 588,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/_templates/sidebarintro.html",
+      "sha256": "11f8eead05c0efe13fe484d6985c74061abe6b6fabb09dd63bda7f0446817238",
+      "bytes": 237,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/algo_trading.md",
+      "sha256": "2e41fd7f84c339d1c0e6d41672207d4056ca75360cfca4ab814d2e6027677eb3",
+      "bytes": 8560,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/chart_wizard.md",
+      "sha256": "5c0bb8c2b4ea1b13d814abd22698586c71cbb2169a4d2423e0156a09770573ae",
+      "bytes": 2853,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/cta_backtester.md",
+      "sha256": "ff262709286fd0232b368e89e5d5c25e7ef173e5f86123943c550423d5725f5d",
+      "bytes": 13554,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/cta_strategy.md",
+      "sha256": "9c0019228a26c1c48cb9ad1a2a0e45a009b672ffe7e34e6ea63b0de6f768af20",
+      "bytes": 43520,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/data_manager.md",
+      "sha256": "dac328998b1ee29bcbfcf553b3782ff1973060e989bef1fec6b3163b26d187b9",
+      "bytes": 8624,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/data_recorder.md",
+      "sha256": "5ad501fdeb561732ecd8c76669f4d37bce272072b473c84fa3cdd7361a898fc5",
+      "bytes": 3359,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/excel_rtd.md",
+      "sha256": "0d13931526fed8728177228c31a18ae5e1d81899d961d39c3d1960ad514bd004",
+      "bytes": 4756,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/index.rst",
+      "sha256": "20feff4728899f38a2138e6510634ebb293b445728c9a88e529a863a59b4726f",
+      "bytes": 396,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/option_master.md",
+      "sha256": "a7a32959a3984119bff8297332b1f390022f4eb32b439215baee0bd09ef26ce3",
+      "bytes": 12021,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/paper_account.md",
+      "sha256": "a604733aea9a81a4baebaba23919b7cea642cf661c926749488ab7a9240b25ae",
+      "bytes": 4912,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/portfolio_manager.md",
+      "sha256": "04feeef8aa2773fb2f889b29ee0249160dfcd1596b428e25951f283901888e7b",
+      "bytes": 4456,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/portfolio_strategy.md",
+      "sha256": "89c1eaba4146760e2ddee0c60684c64c1fdd5439cf8a2d9e9dd7190d3bd9db8a",
+      "bytes": 42192,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/risk_manager.md",
+      "sha256": "2b576099b61182ef05545e8c0427db6c76b014a9948b186e9e763bff1e321d2a",
+      "bytes": 11650,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/rpc_service.md",
+      "sha256": "05ab37a3929c7c930cdf12a86ae75a1098c1a8779de05a535edeb39aabf324ab",
+      "bytes": 4963,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/script_trader.md",
+      "sha256": "12d4942697995a312db3c7823fbdb197e7ed4f99493921cb5766b97052ebd312",
+      "bytes": 13694,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/spread_trading.md",
+      "sha256": "d7eb47d021faeefaec256b58cc5eb583b9aab8dd89ca404ca08558db20478228",
+      "bytes": 37967,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/app/web_trader.md",
+      "sha256": "7b609319dc3d9b52e7d131eb82e97f725fbf2081f810cd4144dda7f8abc93dbf",
+      "bytes": 7094,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/index.rst",
+      "sha256": "6b47a919aa3095ac72accd13cbda793c28aaac61444a2e3f5d2ebd8ee4503984",
+      "bytes": 95,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/alpha.md",
+      "sha256": "cd9fd51f6cdd6f526f3c7f1cf713252ee949925075c42cd52edf3673e00ae1b7",
+      "bytes": 727,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/contribution.md",
+      "sha256": "15297d57ae2330fe734bc4ab4f67eebc8658e964d0b63b0a18846e6e6115efc8",
+      "bytes": 3135,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/database.md",
+      "sha256": "1cccdaf558aadb6ddf9b8d6bd655206d3df153a667a2c5f6a6820270c5288365",
+      "bytes": 13954,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/datafeed.md",
+      "sha256": "b5e5e928916234e46f29e84fe952288a8b47e20006914d26deda9a2f7e5c47f8",
+      "bytes": 6068,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/gateway.md",
+      "sha256": "db5240f8a3c878b8bd671e4e968148c09024ecd6d76624e76ebb8831f71b3b46",
+      "bytes": 15401,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/i18n.md",
+      "sha256": "f716f0b12bff093306ab85e36bd19f689f608fc4fb77173985771311c79cf8b3",
+      "bytes": 5491,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/index.rst",
+      "sha256": "b019ac1b6b66619d351b50bf9606ffec080eed2e40d72374e94adb5d34eb3a64",
+      "bytes": 226,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/introduction.md",
+      "sha256": "655e9df1e50d8be0428a4359ac3ae02a920656a8536d051a5938f5b7d5aca811",
+      "bytes": 6568,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/pycharm.md",
+      "sha256": "04e7bc51fa759f65248cfc0a04035e708631b429c7b139475c577c9481b0f9fb",
+      "bytes": 11531,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/veighna_station.md",
+      "sha256": "fa5024bb8258b79badd9f3e4e6ddb44d4e9ec833cb850c457f3706c3701fc773",
+      "bytes": 7050,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/veighna_trader.md",
+      "sha256": "b76fbe543a0f59fb5074c4e3341f9de4d26699cf9d34e2737eb86170442d7a53",
+      "bytes": 14022,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/info/vscode.md",
+      "sha256": "591967d203dc564e25c9f0691db024b84da6f8f15a9bb8eb0d1251a070776b5f",
+      "bytes": 15166,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/install/index.rst",
+      "sha256": "34475876dc10eebb6ef04f21b73066472a89cb1d14118e584270844edb161b87",
+      "bytes": 114,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/install/mac_install.md",
+      "sha256": "18d3ab5a12b8ecffbd67c6451cd62e676285700d64cfd35cd8d7f71a8a1689e2",
+      "bytes": 4761,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/install/ubuntu_install.md",
+      "sha256": "0a08efb9323df804e8de8bc29a5a52ca06aa8494858223dc7f632ed32032db74",
+      "bytes": 4206,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/community/install/windows_install.md",
+      "sha256": "ce617526d9ca0512c9f9f71bf9f65db1233bfdc7e2521200c47cd13209a5219d",
+      "bytes": 6451,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/conf.py",
+      "sha256": "d73bc3feac2568ceb0a4750ae60967f10ed53a45c0a5a499043a952fe5126859",
+      "bytes": 6395,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/extension/elite_algotrading.md",
+      "sha256": "ed46d368c29df18ea9106468162d4f8c81c43dac5503dd8064d459a140bac85f",
+      "bytes": 7408,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/extension/elite_dingtalk.md",
+      "sha256": "240f25e35243efdd2d315b783048e1724601e7902228ee0f8f5029fc757b9f1d",
+      "bytes": 2446,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/extension/elite_feishu.md",
+      "sha256": "e6cf5c120512fb8e23aaeeabf27350c08c930f57a68989d155472cb77bce0f04",
+      "bytes": 2427,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/extension/elite_ladder.md",
+      "sha256": "d7094037a7c684e65b34e0fa3b6368d0ded7681531e26d7370ddd9144cc586e1",
+      "bytes": 6203,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/extension/index.rst",
+      "sha256": "e1e591f76db76b85e95a44b4de80301c2bce6df0bd59cbe0a61e67ad1bf6fa43",
+      "bytes": 137,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/index.rst",
+      "sha256": "968d105926d4d161d656ff84b5c63be1df8c7b9c6fa16c0d990889ccb420720d",
+      "bytes": 100,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/info/elite_install.md",
+      "sha256": "51135097deba82c02ed1f1b99671ab6ab2e420d586ebf234cb70ca36ce1528d4",
+      "bytes": 1766,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/info/elite_lab.md",
+      "sha256": "76712d535bacdd8f7c0ba40a3451870610a5983eb31e420dfef2dad07ea31163",
+      "bytes": 3864,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/info/elite_trader.md",
+      "sha256": "2e1648b11d364bd5c5735154137b68f61cbbffe98d6afe7a58016582db107ab3",
+      "bytes": 15347,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/info/index.rst",
+      "sha256": "024fa3ce9f6501a7969c18e9d50101e5f4ca4dafc252414027670aa900aa8ae1",
+      "bytes": 108,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_algotrading.md",
+      "sha256": "f5e0902deec8d5c48dcced260324b14a4e58682f0f65491e7ac0a798284c868d",
+      "bytes": 7784,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_ctastrategy.md",
+      "sha256": "c57c47741c13cf4edbbe07cdd0678b5faba9d1a5ccfe60a1835144b47596c845",
+      "bytes": 49317,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_datamanager.md",
+      "sha256": "945025c927cfa88a8b5c532b6fa5a7e241d08df9da94b4a136267e3df151ce0f",
+      "bytes": 9798,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_filter.md",
+      "sha256": "1ff9731e1419b794718021fc7c7f32de1eb3e858d8f8737e6da473266567480e",
+      "bytes": 2449,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_function.md",
+      "sha256": "a73bb561f5d318e554d1aac7797924c579a2bd891ffcda24012587a524a6046f",
+      "bytes": 7518,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_optionstrategy.md",
+      "sha256": "5a06fb48bad4a06fe1637500f2c21d3f255d414d38a534cd1d777f178514a519",
+      "bytes": 31917,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_portfoliostrategy.md",
+      "sha256": "746c6d7228d8ffc7b56e1b0390630b5a71e892dcf060a55f23bd67f5d31e9f28",
+      "bytes": 14714,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_riskmanager.md",
+      "sha256": "1046a73028977fc5049e671590d31d83260625e9ecff710d4dfbf292418fb1b6",
+      "bytes": 5918,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/elite_spreadtrading.md",
+      "sha256": "0f9dee2280f9fd07b46197d9ec275341bca28f19360c0b13e1162c94cf3c0b56",
+      "bytes": 39255,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/elite/strategy/index.rst",
+      "sha256": "95b59b9a6effeb4432020e7b2dd217b05a0af467e3310e5653b11468ed2299f0",
+      "bytes": 275,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/agent/fusion_agent_config.md",
+      "sha256": "82f6a3b93faf813ab5119baa552219d57314f0e00b2a90ebfb251137bce274a5",
+      "bytes": 2505,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/agent/fusion_agent_intro.md",
+      "sha256": "89ff7b86770d638989f849c2f4016ed9419cb55a151698bd9ad237bb9ad1cba5",
+      "bytes": 3173,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/agent/fusion_agent_notice.md",
+      "sha256": "e22f2ff18c3d3ebe42af375bdf0f2463d9f13c4008205bb06f41703a8744f8cd",
+      "bytes": 2496,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/agent/fusion_agent_workflow.md",
+      "sha256": "6b79624c8945aefdd1aae308d054272af99e96ad74e78fd4e1f71c5b2189413f",
+      "bytes": 5777,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/agent/index.rst",
+      "sha256": "9ad9211fdd41eca3c0f7367e236e87dc7e920c66596006190728de0343a2ffc3",
+      "bytes": 158,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/index.rst",
+      "sha256": "c33d005cc9740705d9394cce30944582bb195f81031b00dcfef91948e6e1c5fd",
+      "bytes": 450,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_ctp.md",
+      "sha256": "0f748b0584d855ab0243bbf8c99ac7a6c8703e41a32de07bebb85b9bd7d3fd80",
+      "bytes": 4901,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_faq.md",
+      "sha256": "27b5e2f8fe0e3f10fecdaa94ac15550143cb890e7987396f2fdd6c70142c4196",
+      "bytes": 3701,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_install.md",
+      "sha256": "4086b6036520e33ba1066cec4c2c2462fdad848b10f09d231a6fc0b24cd2e904",
+      "bytes": 3815,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_introduction.md",
+      "sha256": "13ad241235e73b3f552f5f469be20b8e3b0fa06929db3b66109d181a86a03ca7",
+      "bytes": 4017,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_login.md",
+      "sha256": "49752ae579fdcbb8cc2576c2c787caee088295ca3f9d964a945465409f0a3cc8",
+      "bytes": 3815,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/fusion_trader.md",
+      "sha256": "26ec660ed71477e105efb80d44cf900a7ccf56895bab5dd2e59b6fd3323cfd21",
+      "bytes": 3320,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/info/index.rst",
+      "sha256": "b3889f354caf35e1c1276377e0183a9c7b1b44431068affed1d5b711473bf4cd",
+      "bytes": 173,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/fusion_backtester.md",
+      "sha256": "9a27d8eb7d46e05cbe7fc5d5aa7ca10ed9e56ba01442227375d722ef0306f879",
+      "bytes": 3186,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/fusion_cta.md",
+      "sha256": "6b05a584cacabd32c77e1c868ba1358626d330196f966ac298b506c103242288",
+      "bytes": 4688,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/fusion_data.md",
+      "sha256": "aae13c1e8474cf60d967c970f72cd62ca72fd0485ff35e696e0c60710a6b3834",
+      "bytes": 2736,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/fusion_datahub.md",
+      "sha256": "9679b7396ec0829f5407b1ce2265992d12761a34ba6d0ec29f812bad3a62a08a",
+      "bytes": 6112,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/fusion_risk.md",
+      "sha256": "3f7116438a286f97e208c0f30f13c67fc0179181d6898cd751bebcc4ea682a6a",
+      "bytes": 2828,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/fusion/strategy/index.rst",
+      "sha256": "8f1a100d181b722f2e617c0ce4430af9b7c65603e56c7dd00b1ba3f4c06acf7e",
+      "bytes": 151,
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/index.rst",
+      "sha256": "81311fd9c0099574e2d8813d62f79d244a636ac90e0edde0337f8c33b00f50ea",
+      "bytes": 113,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/download_data_rq.ipynb",
+      "sha256": "f383ad243173ed4513bff76960cb5aad77a6d3f47f81cfc6098963a149bd4ea2",
+      "bytes": 4933,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/download_data_xt.ipynb",
+      "sha256": "1f296223809b26e0a47143ec383d6386677fafd157066c09560ff80c724af35d",
+      "bytes": 185638,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/research_workflow_alpha101.ipynb",
+      "sha256": "9b29eb4221c9f2415f28fa3bb95177822d9cfa9c05ca0bf57edf7dd0fd4b8bd9",
+      "bytes": 7194130,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/research_workflow_lasso.ipynb",
+      "sha256": "eb22112b6cb2a7ed5882828696283524d30eb837f5a865f4449cd29a9fc98af2",
+      "bytes": 7000285,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/research_workflow_lgb.ipynb",
+      "sha256": "fb03d367ecd91d98d83a723a53767bffcd4b836e4e8892af719a9e6fdcfb14dc",
+      "bytes": 7290948,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/research_workflow_lgb_vwap.ipynb",
+      "sha256": "d2657c2c0b6db958ff3c4680178ef5c202155e1e8d2eb3c743b479777d824567",
+      "bytes": 7330503,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/alpha_research/research_workflow_mlp.ipynb",
+      "sha256": "f87a6710242fc46a6fc6a0377e6bdf6a2fd096f93a3367659e506910b8cefe44",
+      "bytes": 7005854,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/candle_chart/run.py",
+      "sha256": "9f11ad924cd812a199134f3e7a656929923abbb6eb7dfc0d0261c2f704a95f07",
+      "bytes": 1213,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/client_server/run_client.py",
+      "sha256": "58370afd4ff73e95e6ab6acadf512f4de9325c98bf38975927d5f567d04b8550",
+      "bytes": 699,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/client_server/run_server.py",
+      "sha256": "4cf632fbf294e0dda1044b9aa931e383a5983009cd2b446005c8341c35534297",
+      "bytes": 2169,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/cta_backtesting/backtesting_demo.ipynb",
+      "sha256": "8b842b8309adbd051ca434bcb13e1ceae6c885b3d5a5507b86cdaaab6148806e",
+      "bytes": 55619,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/cta_backtesting/portfolio_backtesting.ipynb",
+      "sha256": "a5d8739264b411c8cde43f6b61ca40faf77b1e042ed75d202496e32aaf4b454c",
+      "bytes": 80892,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/data_recorder/data_recorder.py",
+      "sha256": "d77a05e3987a6d5462e5e07b267e6549981e1800ae9660524a2cf3a2badf4158",
+      "bytes": 5875,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/download_bars/download_bars.ipynb",
+      "sha256": "f6f26d19548aa51555b869a58597a3a3575117e4d464c0402971e9f5d767438e",
+      "bytes": 5323,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/no_ui/run.py",
+      "sha256": "23ad2fa03d73178301122960d12fc09f0fbfb92fc48c05eb50464db9803fd70b",
+      "bytes": 3269,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/notebook_trading/demo_notebook.ipynb",
+      "sha256": "faef36ac8e5ff2f008235594d4e20596bc57dbe409c40cf1522c9913c2f3c1cb",
+      "bytes": 3067,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/portfolio_backtesting/backtesting_demo.ipynb",
+      "sha256": "0dec983854ffbf47e940971aabf1dba70e9f96482e13b7221f782fa02be551d2",
+      "bytes": 2730,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/simple_rpc/test_client.py",
+      "sha256": "964b4da9a084da8b7ed5bfc4a97122058b01c87e6a6af139e6fc0d6703fdc896",
+      "bytes": 764,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/simple_rpc/test_server.py",
+      "sha256": "219dcee944321961383b35a99eb92e7d5c06d2994b3727b18dfc4b2a4a3aa714",
+      "bytes": 767,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/spread_backtesting/backtesting.ipynb",
+      "sha256": "f61a529f96d734b8d0c1a430b2fde5846f712b11835a72c37fba8516dfbea61c",
+      "bytes": 3232,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/veighna_trader/demo_script.py",
+      "sha256": "54294e7d21fbf9ed21da889c91d5b47fca8a2942e69b201a5436f6a82b0bba6e",
+      "bytes": 1496,
+      "git_mode": "100644"
+    },
+    {
+      "path": "examples/veighna_trader/run.py",
+      "sha256": "4ad0db59fd4d1eeeebe33e4dee860b599fa757d065f36281042b14be25d1b727",
+      "bytes": 3158,
+      "git_mode": "100644"
+    },
+    {
+      "path": "install.bat",
+      "sha256": "e51e7fdc9c25095483d6e8d04afd754e011c1357890489832129652c91dac0cd",
+      "bytes": 460,
+      "git_mode": "100644"
+    },
+    {
+      "path": "install.sh",
+      "sha256": "8da84b4db25074fc64c81f50688af12dc97ab80c6228283d6b5249186dce4e59",
+      "bytes": 868,
+      "git_mode": "100644"
+    },
+    {
+      "path": "install_osx.sh",
+      "sha256": "143f8935cc0aed91beaf2d592cbde1101a8485e203974b02944cb8b37ec2c05a",
+      "bytes": 621,
+      "git_mode": "100755"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "13efb05eb7d016a8bb95a8d9a412bb9065cf447eac09d20fe474106744ae3d15",
+      "bytes": 3184,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/alpha/test_cs_function.py",
+      "sha256": "f6389ebb7eb88d713f8886b049ec8ec4d7ef9e3d66a655d93c77f0ae068d3fde",
+      "bytes": 1697,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/alpha/test_dataproxy.py",
+      "sha256": "d945b0d3be5ecce51186149ec1418627c673d641b84f2f635756fb170d8433d6",
+      "bytes": 3440,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/alpha/test_expression.py",
+      "sha256": "7af7be7db79329d0838424e511fddda8f8d5d7139476a4ab3ef8b179cab3c9d6",
+      "bytes": 1787,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/alpha/test_ta_function.py",
+      "sha256": "1b66f3c42d479aad4cd12a2f4a3d43f2ce852aab50a1a8be582c25f01841e6bb",
+      "bytes": 2615,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "ba78af59d39b47effc361d13ffbd7a705a5b5191022452953283ff2591eed5fb",
+      "bytes": 976,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_alpha101.py",
+      "sha256": "82c09c66dfdb6c2d0700cc497542a7123c4ce07016341a9a7b8e51279c3d7f0d",
+      "bytes": 35454,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_alpha_backtesting.py",
+      "sha256": "a2b111535322804fcf2f4b0f18c4b384c6e50530832642cc77bbafab3980ffd7",
+      "bytes": 8053,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_converter.py",
+      "sha256": "c31bf2008c37ee474db3c02134f9c961b5ea5d7851eeeb3b87f2c0a83a6d47c9",
+      "bytes": 12047,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_data_services.py",
+      "sha256": "aad48da7c337237ae7e917148d5d83dec56313c0b9a7f798fd4c358b9cd2f610",
+      "bytes": 2912,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "sha256": "e7c09caa86df0309cf5ec522afcbe199db045c5d8a0d66b7210ec6e55b75ec00",
+      "bytes": 6291,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_event.py",
+      "sha256": "da7938a6ff1fab3b4b41880c987eb2b0849c74b813df35790b06351f57a4c41a",
+      "bytes": 741,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_object.py",
+      "sha256": "7e8fd08e3affbcafe75634a059fcb354b6ce3f385e809831610e998394d98cc8",
+      "bytes": 4698,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_rpc.py",
+      "sha256": "ff35883474942152476f7f9e1760e3e1fcb95ae2c6580cfa01754cc8495990a3",
+      "bytes": 4650,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_utility.py",
+      "sha256": "bb86e25ab157529efad60a7c996471899ea6a40b3ae3c22d178333e4d676dd50",
+      "bytes": 13398,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/__init__.py",
+      "sha256": "b15976ee68e3fbad1846678fb84bc6c10861bc38816cbfc921b9d477342bdda9",
+      "bytes": 1194,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/__init__.py",
+      "sha256": "45ca245b79cafba724c0c8d84b2133342c34b2540a38d30098c312fbc68325c4",
+      "bytes": 485,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/__init__.py",
+      "sha256": "161dd50c59af884d0251d7961ff3fb60840e11e7b5504a5c49e86f7d5fdf3b5e",
+      "bytes": 752,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/cs_function.py",
+      "sha256": "7cb7781ef5eac2e11c7abc632b139a13d5807c24b8093ad0e8f5fca22496a112",
+      "bytes": 1996,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/datasets/__init__.py",
+      "sha256": "340d58fad04bc256d104694eea8b3276a5f7d82aa75ac3d6f416bce28858c58b",
+      "bytes": 51,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/datasets/alpha_101.py",
+      "sha256": "cfca4ab7d5450b71a1c5af3639675948f0a6393a5ff6903dcee46480b942999d",
+      "bytes": 20235,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/datasets/alpha_158.py",
+      "sha256": "238174deed8bc59f14bbc145fd811e686e78b68f8efaff002f78f07a18f4f5d8",
+      "bytes": 5599,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/factor_performance.py",
+      "sha256": "fed9366a2ffdf1f0f1f0d06aba6738299d2437322ce2ecfa5ce1d8153398d003",
+      "bytes": 39032,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/math_function.py",
+      "sha256": "1e2729a54fe2a0178532c9d3fcf1236856d7c4278aaa96df730316a3a91013e1",
+      "bytes": 5853,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/processor.py",
+      "sha256": "bc3d35cdc34ac491012bb87af92969cafb1ecab2d6d734749123bf7dd492f78f",
+      "bytes": 6078,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/ta_function.py",
+      "sha256": "1987665e2f0e25439611aff469743212a13103ac36b854d327361c3f149c6cea",
+      "bytes": 1878,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/template.py",
+      "sha256": "c56786445ad851f724b0b2367a08b342967c4adce3f6e8d557bb557c28c46bd0",
+      "bytes": 11441,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/ts_function.py",
+      "sha256": "88443ae16d4065406cdc7b6e034d72eceb1d06736ab97508d3c82a50d43ad18f",
+      "bytes": 22974,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/dataset/utility.py",
+      "sha256": "49369cf93bd9eec0cb7f8f64df73a68d0161c5a7a569d6dda16b31ddab3be3e5",
+      "bytes": 9919,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/lab.py",
+      "sha256": "19e2491f0faf70dedf57c2cef6b4667e7e7cc49cca745e22fa05427ecdd193d1",
+      "bytes": 16359,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/logger.py",
+      "sha256": "4d65ce35fa305441b90b07ae6f138318decfc2c8375523f7281980b07d33d629",
+      "bytes": 307,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/__init__.py",
+      "sha256": "a200a37a925a8aca7ee55ff7f655190b50cb50c4df46b18eb9dd4c79b767a5f1",
+      "bytes": 99,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/models/__init__.py",
+      "sha256": "989c8896a0f9f5a9f8f12feb5e46d17a1e0bdb9d35e62a0957c9c5486f54e6d1",
+      "bytes": 46,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/models/lasso_model.py",
+      "sha256": "f82ccbee19dd9121e037c00a5441f1ed8b3a26d6409499539c028f98958ce79c",
+      "bytes": 3578,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/models/lgb_model.py",
+      "sha256": "ade929d4dc148471631b79746422ffbe9f57ecf794d276ae91fe64b23bd7b9e5",
+      "bytes": 3893,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/models/mlp_model.py",
+      "sha256": "4b8e71c942347a5e891573252a2c85edaaf044dad326a9e4912c0aaef0c8ddf7",
+      "bytes": 16967,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/model/template.py",
+      "sha256": "b28f3627b7153bc7942f7a89976ff1f9c1f8dbaff1fd104fe694e68743db612f",
+      "bytes": 737,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/strategy/__init__.py",
+      "sha256": "7bb9b2adefe35192969f29bb0417b2a9e1c4e69c35822af8152a3646925b71f2",
+      "bytes": 197,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/strategy/backtesting.py",
+      "sha256": "956cb65cacdbcd3d01fb04e5360c047c75f8d9aa71f7a5d8946719b1f8a2ed0f",
+      "bytes": 35968,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/strategy/strategies/__init__.py",
+      "sha256": "d0eb0c725dde5293a68b50f4db1f776d2852e0ec5087c68cfb9dcfa3896e5072",
+      "bytes": 42,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/strategy/strategies/equity_demo_strategy.py",
+      "sha256": "fda2182230edc02ee4e1c9510136aeec7f7097bdfeff53769ae30d3d9c4bbc02",
+      "bytes": 5213,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/alpha/strategy/template.py",
+      "sha256": "4bbdb5c975ef0bb2ce06048acdc761f62828155c9ad593865f6535bfa36122c5",
+      "bytes": 7085,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/__init__.py",
+      "sha256": "46554d3b1a47e9415f152e300439f935f5ce98aa97f5048ebf114850742fbf77",
+      "bytes": 201,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/axis.py",
+      "sha256": "40c92d6dc6b94cab4613d572681f050ca9ba8b9c19e72a36897803a647388088",
+      "bytes": 1313,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/base.py",
+      "sha256": "c1696a6c2526574ba3e34b454db2afa409aaa7bef5a69306e8e80bd998c3c597",
+      "bytes": 633,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/item.py",
+      "sha256": "bf1efe057574bc8d5dfc2112c7f7b8cf99d6dc62124a9370b30d2ee304a0b23d",
+      "bytes": 10215,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/manager.py",
+      "sha256": "f24b2456fa3dca27385ba1d6fd4e1c52a644d3e7c2f72edb6b2b53c036ecba8a",
+      "bytes": 5250,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/chart/widget.py",
+      "sha256": "d080ababf992cbc9f8493726076280b46c37520c827497be73e4a54d30a257e3",
+      "bytes": 17543,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/event/__init__.py",
+      "sha256": "0469e8b3ad38514dab852bfd89be889a95a1c0825874b92209639befb94c6ec2",
+      "bytes": 166,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/event/engine.py",
+      "sha256": "570058908186cbe80ba3407a5682bfb6748cea3242ce94f63fe8b15a0ea7cdc2",
+      "bytes": 4314,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/rpc/__init__.py",
+      "sha256": "15edb64f7785b4b0ded38d2e207c554867ee1225911b2726fd17faeeb0a117ee",
+      "bytes": 142,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/rpc/client.py",
+      "sha256": "7521ea881978188bf774c1a255f6b4f1ddf0d89bde55c37dd20230167ef2b506",
+      "bytes": 5331,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/rpc/common.py",
+      "sha256": "098796fccbb6a757797a86caf57e07b6dfa92dbd62946a4905ead4618c457985",
+      "bytes": 249,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/rpc/server.py",
+      "sha256": "4e8ed45ea7e417ec46f0e84b9bae87cf7d51dab93075c0747cdb5604a96d3c29",
+      "bytes": 4437,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/__init__.py",
+      "sha256": "79af0e987dbd61e73c3826bb2d49ca1b8eab2ea11951445e8bbd9a16e8c7758d",
+      "bytes": 46,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/app.py",
+      "sha256": "ec09c443cbed444d5488fc647605796e07d1c879815104f3c46fd8475a8b1181",
+      "bytes": 766,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/constant.py",
+      "sha256": "1361eb485eda9fd97bee3e68324d9b08a96fe927c37a99f8b74de981141e7a0f",
+      "bytes": 4425,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/converter.py",
+      "sha256": "c5e263152b622c988b2552d965e1c948bcc46ad2bb58dea008300259b4cc33d6",
+      "bytes": 16023,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/database.py",
+      "sha256": "581ef926a96eca24667336a5e42d107bcde9169e8491b08ed56a7786812562cb",
+      "bytes": 3719,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/datafeed.py",
+      "sha256": "b8dd750e15061834db1edb027622924ce525c9eba81e42d60bc40fb64fe55aef",
+      "bytes": 2083,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/engine.py",
+      "sha256": "099fcf893d9c829561df48fa8b5662d40798d3f4e8cc236760169553b874deac",
+      "bytes": 28494,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/event.py",
+      "sha256": "d74bb4e1020ae8c7c17fdce6945267eb3d9dced05a98778cf45a5ff91c9756ed",
+      "bytes": 342,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/gateway.py",
+      "sha256": "6b2821d7c9d35f51c0266aeed9314217f207cf026a173c7f8c3458244a24d0d0",
+      "bytes": 7798,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/__init__.py",
+      "sha256": "860967fcca20888e4b1785ea8ce144b33c5c2a54673c62a3bee62d688f6f9c49",
+      "bytes": 297,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/build_hook.py",
+      "sha256": "cd015c62a14b10d6704ccd08b2c6153086cca42dac8e507290e09e1353aacd3a",
+      "bytes": 1077,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/en/LC_MESSAGES/vnpy.po",
+      "sha256": "7e416e2f5d446e206b541f0ea6174f442715061245f26a4aee4b6ca5df83dff2",
+      "bytes": 19668,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/generate_mo.bat",
+      "sha256": "b968f96e94cbb47ad216c6fc4520f93a6a09c2e75003699984ac8204bf1f3621",
+      "bytes": 129,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/generate_pot.bat",
+      "sha256": "ae51d056bcda54560fe24ec177e6d93799de75557d64fe172433d3c365214826",
+      "bytes": 116,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/locale/vnpy.pot",
+      "sha256": "06f8dc2dba7a43153647be2fecd33b13e79885462528aca31dc2bd283ded6b60",
+      "bytes": 11640,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/logger.py",
+      "sha256": "021cbbf13a270880b491de6a2608ca283dbe3c7f41246b3f079600dc744b8344",
+      "bytes": 1168,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/object.py",
+      "sha256": "8647fff38edbf4ab3e42e4310d7af9fb76c7cc87078c17eb076199c560e4fb7f",
+      "bytes": 10525,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/optimize.py",
+      "sha256": "dc8e6b88e4427f7457ab2979bcf9ffdca2bac43dd7e2e3c541ca663cf5f16510",
+      "bytes": 8792,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/setting.py",
+      "sha256": "a8a364ba894c0f9cfc277dc07986664803db1c0935455ba57d6dca951537f5f1",
+      "bytes": 912,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/__init__.py",
+      "sha256": "824c04899743329ce5e0288576d32915313d21be9adf3eec07b733d849417b81",
+      "bytes": 261,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/__init__.py",
+      "sha256": "ac75e8b3466265ca8a6a1a1e591af212f9c3f3f2222e4c9ba9d58d55c1ec9004",
+      "bytes": 43,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/about.ico",
+      "sha256": "6e5d424bc57bfa1d48edb10ae0c298a3f066aa13c29419b311f47994a9a2c007",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/connect.ico",
+      "sha256": "654d4c2e7666f1a458f2466c9cc0741523aeaba1f5190e4e386698014ab18567",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/contract.ico",
+      "sha256": "e1d08be01100de184831b6725c7a86d60ced458bbd23aecad5e9cddcefc82f69",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/database.ico",
+      "sha256": "942059de4ff24700f2adc073bf02e032e28aade62c0a345498bb627bcc4ff228",
+      "bytes": 63038,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/editor.ico",
+      "sha256": "2cdd8d4fbe868edadc6ca5916d713aa6ad9424b5b7e81fe97f79d2f0e14a95a6",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/email.ico",
+      "sha256": "ad973bbb4b7bd7d83dd98d8ec9ab92bc1d0beb597bc1753f5359f22fc97d7f29",
+      "bytes": 34382,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/exit.ico",
+      "sha256": "496cf97cf51abd4acfe067c5653e9544967e796441a573078aaadeae9d303173",
+      "bytes": 67134,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/forum.ico",
+      "sha256": "c75b4b3f3eab065afc3ba97d49c9cc9f4e0fa9642b310abd8133c685b2ea3159",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/restore.ico",
+      "sha256": "2fed3b59a9e6f274a52b79840c871fecd04ccd77c563518d625c8fd82b89abb7",
+      "bytes": 21662,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/test.ico",
+      "sha256": "04083d4be25a4fd1e97fbc090cf9b56006b7131830b2748c67173a9b41f56c63",
+      "bytes": 51774,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/ico/vnpy.ico",
+      "sha256": "0845ee1e5e5f968b426deb11451f3951aadaabe2f7cbec3981af249518049f52",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/mainwindow.py",
+      "sha256": "cbab4704580d040d42d6606d18886081e962656008418c4c39f50d20a6da8d38",
+      "bytes": 12213,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/qt.py",
+      "sha256": "5634fe4acbc6ad24871e646e1453ba366932c1701f9c38d15dbad21416788f3a",
+      "bytes": 4298,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/ui/widget.py",
+      "sha256": "aaefdafaf5fc99c344ea516aa184c36d451ab80c12658bfc42683d7b172f8e49",
+      "bytes": 63875,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/utility.py",
+      "sha256": "a40621d812236509482d851c4ec8f36c017b54939e8ab47655d15f5a865c74ac",
+      "bytes": 41642,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy/trader/wechat.py",
+      "sha256": "00d202e06765c7404dc9d5fa6f9e885f26841f3c90f5c3dfb6557e8ff4f67c9e",
+      "bytes": 9083,
+      "git_mode": "100644"
+    }
+  ]
+}

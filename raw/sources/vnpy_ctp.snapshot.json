@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "name": "vnpy_ctp",
+  "origin": "https://github.com/vnpy/vnpy_ctp.git",
+  "commit": "1be9bfb5292208e5c258cc769c90be4abe83f9a9",
+  "git_tree": "3593a247f9af7edcac7a6d138929da0010683c39",
+  "commit_time": "2026-10-05T22:21:43+08:00",
+  "downloaded": "2026-10-16",
+  "snapshot_root": "raw/sources/vnpy_ctp",
+  "method": "shallow Git clone followed by complete git archive export; no upstream files modified",
+  "files": [
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha256": "7ae381059bcfaeab7f1b2de4a665f6696c80c8c5e4f2a3da69297a66b3dbe99f",
+      "bytes": 750,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "sha256": "53e9b76d102b27c42e6ba884704f68992acff958bfedb1853564f496e3838e25",
+      "bytes": 367,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "e0fd3a512ee2b5d732ebcd8b2470e5db13f62b4d19fac79a0d117e2b14cc3e7e",
+      "bytes": 178,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha256": "b4232baea3f482b7bd2445f14b07922db85980b21dc801f9554437f49af750ea",
+      "bytes": 304,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/workflows/pythonapp.yml",
+      "sha256": "946d3a7307024d9464e4761875d8ce82b95984c9ad08bb4d9aee3fb5fc845ee1",
+      "bytes": 1832,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "23c5668ee753b3597debb7eb722bed1f0c51825a10bc76f8929c698da03c0d5f",
+      "bytes": 390,
+      "git_mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0a76138360caec6901dcb5caf35ba5a9bfd16543b7e6e86e0b35ab9703fa86f5",
+      "bytes": 2669,
+      "git_mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "553c17087991a56e2c50a50e600e4e0eece7f409692a4178292e5a813936d22f",
+      "bytes": 1088,
+      "git_mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha256": "128f5c758c8a2a66cdd865518f63f260526c54c625548a14976b5bfc06ae0449",
+      "bytes": 2322,
+      "git_mode": "100644"
+    },
+    {
+      "path": "meson.build",
+      "sha256": "ed27d150cee9a2ad63ea921c1686fac32e7ae38ee7618496db0f87439ab6affc",
+      "bytes": 6194,
+      "git_mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "24ca11df23e852418c078e703b044dd16542859ecbf25e3a3c3ddefc4fdbdece",
+      "bytes": 2286,
+      "git_mode": "100644"
+    },
+    {
+      "path": "script/run.py",
+      "sha256": "4f44c710b4fe7e356861f2dfb545e6dcce2f0b89ee3107478aa9cc91a4f6ad8f",
+      "bytes": 542,
+      "git_mode": "100644"
+    },
+    {
+      "path": "test/run_test.bat",
+      "sha256": "46be61ecf6d08dccacc2b5c4e8bbcf9c33e513504993552a17d72274f322d925",
+      "bytes": 9,
+      "git_mode": "100644"
+    },
+    {
+      "path": "test/test_md.py",
+      "sha256": "8997f58d9d4e2d7c47c543667fbbc392145a722a908c33f3d4ab1297fd7b3545",
+      "bytes": 3052,
+      "git_mode": "100644"
+    },
+    {
+      "path": "test/test_td.py",
+      "sha256": "d26de69bbf5979cfe2b168871c0c650e74b9075fb68103c8c70f7636ca011957",
+      "bytes": 11006,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "ba78af59d39b47effc361d13ffbd7a705a5b5191022452953283ff2591eed5fb",
+      "bytes": 976,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_ctp_gateway.py",
+      "sha256": "679aebb03f3e1fdd4e24c316cc491e216eb5260b7802b39b26532695a44168f0",
+      "bytes": 12882,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/__init__.py",
+      "sha256": "54c2c480e2db2ce838224e4f1b275f1b31b1fa6d004d2eed9696e97c7cd952ae",
+      "bytes": 1375,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/__init__.py",
+      "sha256": "be4c6ddbb61c6e4e689d841097c414d36f7c64fedc1bb439a34586076eacd33f",
+      "bytes": 169,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/ctp_constant.py",
+      "sha256": "549cde2130562295d441a76d06f22f5ca3e47363f69dbd012fb5b083aef15906",
+      "bytes": 43674,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_constant.py",
+      "sha256": "6d1f73b19d80b7e1617434b6d2d6a70b404722c6b861809f6bc691dd7fb2993c",
+      "bytes": 43645,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_header_define.h",
+      "sha256": "521e5aba8dd04effde85e91a33a12487942699a56650b8d7e7f34f16313f84bc",
+      "bytes": 379,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_header_function.h",
+      "sha256": "9c2f7e79e6c01cbe4176b0d1099dae42e0a9c8396ec74b1c1ca60a88e6b1c6dd",
+      "bytes": 155,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_header_on.h",
+      "sha256": "b4a3866e69bee412b5dff5ea50bd7f6f52efdc9494ce2e83773c90095b2abab6",
+      "bytes": 994,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_header_process.h",
+      "sha256": "a41eaa0de8207da287f2670d9a6ec62cc9ad23e1a09c49430916fbc28061a8c9",
+      "bytes": 558,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_function.cpp",
+      "sha256": "1d6f00c8cde5f706b015ad80da040e001d1086198f3026b4d23a2464f2a53e9e",
+      "bytes": 1607,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_module.cpp",
+      "sha256": "5c58e4b1c1faf4d9af88ad7b659624df2a3b5d4eadefe3c92a5968164613725b",
+      "bytes": 873,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_on.cpp",
+      "sha256": "a2c8fd6488be6690da6615bc71e967da2b885f2bee9a1977fe844f6f38c2f609",
+      "bytes": 3002,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_process.cpp",
+      "sha256": "1a44e38e1a3394a50740721d0a9553762fa9a81f96a69a5e4ce03616a145042a",
+      "bytes": 9965,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_switch.cpp",
+      "sha256": "2111ab22d766a0286ff138085ba8690b395ddbf050dc3ee5b0fb09fce22a939f",
+      "bytes": 999,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_md_source_task.cpp",
+      "sha256": "932618575619342a008da2b2cd4b2c80627473f68ea2387218061d6b0aa6f949",
+      "bytes": 5941,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_struct.py",
+      "sha256": "c7184d832064bc17f4a1184636e7ec6fae47e843578ff90a7accd521f7cad144",
+      "bytes": 182304,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_header_define.h",
+      "sha256": "80ebcbeeeb4cd6b2d85d10b4f6fbc66de4df00c2e22296d170722d5c06541429",
+      "bytes": 6144,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_header_function.h",
+      "sha256": "e6034b80c4c8b5d00a9bb3845add98f3b8794a83449c51929a61d1e4fe478c01",
+      "bytes": 6978,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_header_on.h",
+      "sha256": "9c73646209eb2a12f4d6a2bf608590c8171e48ac660b8d8537581c9452327439",
+      "bytes": 15404,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_header_process.h",
+      "sha256": "9c282b6c4b3a6ea7c95628354cbf045b8f2614d228480e0f7d0af7b480c112db",
+      "bytes": 8391,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_function.cpp",
+      "sha256": "6d0f706d7856eb5ce7d42d9a5d87eea7a3333c6b607c087e17df1e1a5daef410",
+      "bytes": 75105,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_module.cpp",
+      "sha256": "3dd5c850143fdeaafe5a9e21ce012d827a8a0f94e66148d7a56346bae9affa3f",
+      "bytes": 18785,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_on.cpp",
+      "sha256": "18f70f6d886b99c4cdd6524f3d5889834050d97c4bc44a9dc25a8d1247db1fe4",
+      "bytes": 43938,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_process.cpp",
+      "sha256": "27a1f74a8c27580f52572929cae2f26ebdd15fc396bdb9ebd1e5841a1b8b8b09",
+      "bytes": 275040,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_switch.cpp",
+      "sha256": "5e3e9033727870c8dca640c29c88e5fee8a3fa13eb8da5d0c07383707bd025be",
+      "bytes": 15629,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_td_source_task.cpp",
+      "sha256": "ff5b4c3951a1338f2006e0599e4d8b4361d03a317a2c76a539724b1a51bf5b88",
+      "bytes": 97306,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/ctp_typedef.py",
+      "sha256": "33471370f2f2170b3a3359e0e32527ac4e7cab05fac8fe11252c34d20c8f427d",
+      "bytes": 31750,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/generate_api_functions.py",
+      "sha256": "b3ec21ddfa77091be522e9b49660251ea6bf0a982793c3a1754e17f4e04b3e1e",
+      "bytes": 13340,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/generate_data_type.py",
+      "sha256": "48f7f5b5c80340a58903023366d84544bc08ffa31360bb4fc8847b22a888fd18",
+      "bytes": 1987,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/generator/generate_struct.py",
+      "sha256": "a19f64fdc03184b129d1629b9f9963108c186d378d7e5e6d8ba5aae73a28448f",
+      "bytes": 2276,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/ctp/ThostFtdcMdApi.h",
+      "sha256": "d86f42f19f79bf6566e03c005a0467907932eecb9d790e7b6dc56ce5c85be6f6",
+      "bytes": 6676,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/ctp/ThostFtdcTraderApi.h",
+      "sha256": "82d59955ff6ae9e9d590e3a2b30ca44c5b66beeb93ee8cc3783835a5df6535a4",
+      "bytes": 54284,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/ctp/ThostFtdcUserApiDataType.h",
+      "sha256": "0e83c85a4e1a6660f707f82666d565cb026c1c0971c31f0c78676b8b28bcb4e4",
+      "bytes": 292541,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/ctp/ThostFtdcUserApiStruct.h",
+      "sha256": "9efebd2f0d52f38582fbcfdb17be811c4e1c79c49cf55668d6d5208bb7a4cc52",
+      "bytes": 375610,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/mac/ctp/ThostFtdcMdApi.h",
+      "sha256": "744b6890028b5265f2a91dd6b43821ec71fb0512770a6f5e8fb01056f6f2d4e8",
+      "bytes": 6558,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/mac/ctp/ThostFtdcTraderApi.h",
+      "sha256": "5cec281d8b273178918c256180e21081bfa6a9aa677fb2cfd465797cc8b1dd8a",
+      "bytes": 51342,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/mac/ctp/ThostFtdcUserApiDataType.h",
+      "sha256": "8de1bf4c06abd87b21ad0f7ee239286fde0c28c1562e81f85e5fc770a8c8830c",
+      "bytes": 288713,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/include/mac/ctp/ThostFtdcUserApiStruct.h",
+      "sha256": "13458040d1a7840e0e9b7ea77acc9251088e591a4e7e8be86fc6c44340d789b5",
+      "bytes": 348447,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/libs/thostmduserapi_se.lib",
+      "sha256": "4b68bc2cf4bb39e2190edb6be771ace058444d03bd5e2a6bd99e5df7d1a707f9",
+      "bytes": 3832,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/libs/thosttraderapi_se.lib",
+      "sha256": "0cea8012d611e3ccecefad4e86c9382e7561903f8b18f195a5dcc6101ef5eea5",
+      "bytes": 3970,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/libthostmduserapi_se.so",
+      "sha256": "9c6d321f3d880e1c91ec225cc46950f8aa1502f43fc9f41d1d92f10ee04d190a",
+      "bytes": 5019965,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/libthosttraderapi_se.so",
+      "sha256": "ad4da95953ea5d0f4ed28ac746462ddba1f3434d0df1727919ae0d97591b4085",
+      "bytes": 5677063,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.dll",
+      "sha256": "2bf4d1c92563b6ac4654aed12364c45529d95cab191001e56e219ca788286eaa",
+      "bytes": 3122176,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Headers",
+      "sha256": "2e7459ad2a0fe8f04a961c353c2c65f76a7081836ad76265c47e0cc08ed0a737",
+      "bytes": 24,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Resources",
+      "sha256": "59991b51b8ee15b59f07ec45942957a4ce90494257766964f5df60b7c7998e42",
+      "bytes": 26,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/Headers/ThostFtdcMdApi.h",
+      "sha256": "744b6890028b5265f2a91dd6b43821ec71fb0512770a6f5e8fb01056f6f2d4e8",
+      "bytes": 6558,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/Headers/ThostFtdcUserApiDataType.h",
+      "sha256": "8de1bf4c06abd87b21ad0f7ee239286fde0c28c1562e81f85e5fc770a8c8830c",
+      "bytes": 288713,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/Headers/ThostFtdcUserApiStruct.h",
+      "sha256": "13458040d1a7840e0e9b7ea77acc9251088e591a4e7e8be86fc6c44340d789b5",
+      "bytes": 348447,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/Resources/Info.plist",
+      "sha256": "5be634de17bfb3c607c2d87ffce5b89ed95bd378f76b24d1411b91facdb77169",
+      "bytes": 1296,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/_CodeSignature/CodeResources",
+      "sha256": "38c9cc2316fdf8adec55268c7e55fe63ec4f3674ab8b7422666906ad50a7754b",
+      "bytes": 2898,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/A/thostmduserapi_se",
+      "sha256": "ff5ac3928a131b24973b9900efa1175410e5db57b9d64c937e07ae553150f1bf",
+      "bytes": 7777840,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/Versions/Current",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+      "bytes": 1,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thostmduserapi_se.framework/thostmduserapi_se",
+      "sha256": "e225b3ab33ad76e76960ec22cc9ce14331f893388334eea6578bcc504e63dd31",
+      "bytes": 34,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.dll",
+      "sha256": "e8dc311ff2ed832f89b8325378ec043cf3c6be5aef277d79f78a7b7e780bf6a9",
+      "bytes": 3521024,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Headers",
+      "sha256": "2e7459ad2a0fe8f04a961c353c2c65f76a7081836ad76265c47e0cc08ed0a737",
+      "bytes": 24,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Resources",
+      "sha256": "59991b51b8ee15b59f07ec45942957a4ce90494257766964f5df60b7c7998e42",
+      "bytes": 26,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/Headers/ThostFtdcTraderApi.h",
+      "sha256": "5cec281d8b273178918c256180e21081bfa6a9aa677fb2cfd465797cc8b1dd8a",
+      "bytes": 51342,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/Headers/ThostFtdcUserApiDataType.h",
+      "sha256": "8de1bf4c06abd87b21ad0f7ee239286fde0c28c1562e81f85e5fc770a8c8830c",
+      "bytes": 288713,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/Headers/ThostFtdcUserApiStruct.h",
+      "sha256": "13458040d1a7840e0e9b7ea77acc9251088e591a4e7e8be86fc6c44340d789b5",
+      "bytes": 348447,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/Resources/Info.plist",
+      "sha256": "5b25159ee8a5f6dba0bdc1c9702c3bea58e5a75b4e35f21fc682afa1dd9e93e9",
+      "bytes": 1296,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/_CodeSignature/CodeResources",
+      "sha256": "a0861496692449d6d8fdff9ca3b2e3fcce374efcc4dfe317ef83d3fd156313a0",
+      "bytes": 2902,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/A/thosttraderapi_se",
+      "sha256": "e22611e2b844c0eeefe1df85f9c7008d6931c37c13ef10f68db73efb5e0d4be7",
+      "bytes": 8701376,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/Versions/Current",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+      "bytes": 1,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/thosttraderapi_se.framework/thosttraderapi_se",
+      "sha256": "1b0fa34014a60260ef7d1d72d029e71f2ec0006125bef5946d16076ac4028f22",
+      "bytes": 34,
+      "git_mode": "120000"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctp.h",
+      "sha256": "3aafacd727064e6e110bef94ca37b5aef49709c5c8629477d622358f3d87dad7",
+      "bytes": 4524,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctpmd/dllmain.cpp",
+      "sha256": "b42e577b61b358f038320b7287e092c92ae72313d52933da26ec25e5d86d348c",
+      "bytes": 429,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctpmd/stdafx.cpp",
+      "sha256": "93169d8b687a1e249606e7fa3153c17a774585b2d3f82da7b3006e2998044e56",
+      "bytes": 20,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctpmd/stdafx.h",
+      "sha256": "977e7fc41e71546b614f7376b6a5f74c3d62875c73f6f413e1d696d5643b17b1",
+      "bytes": 359,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctpmd/vnctpmd.cpp",
+      "sha256": "d8641a540e210cb57a30db06f218b74ddf66738811f8cb311cef59805f1e0e3d",
+      "bytes": 28334,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctpmd/vnctpmd.h",
+      "sha256": "2293be793fca47e437c63030fa5570022fe6c68a898f2a15ec7a8c1fada97aa3",
+      "bytes": 6961,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctptd/dllmain.cpp",
+      "sha256": "b42e577b61b358f038320b7287e092c92ae72313d52933da26ec25e5d86d348c",
+      "bytes": 429,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctptd/stdafx.cpp",
+      "sha256": "93169d8b687a1e249606e7fa3153c17a774585b2d3f82da7b3006e2998044e56",
+      "bytes": 20,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctptd/stdafx.h",
+      "sha256": "c9760fc08fb913724aa880e35e78ac092ff640c1054c93cbf748085028f05418",
+      "bytes": 358,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctptd/vnctptd.cpp",
+      "sha256": "cc1d80b613c7c19b029f8367be69a28950e298b35178d17982e559f1f1cb6ac2",
+      "bytes": 538410,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/api/vnctp/vnctptd/vnctptd.h",
+      "sha256": "b917db2bb0bfee9a70d78341f18223f66f43cb0bcc85a4ca0fb9839084107b12",
+      "bytes": 70455,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/gateway/__init__.py",
+      "sha256": "6a647ca8fe93a442439a0538b6ca8f76759a50e0fabe1da9141c9d70c28aa937",
+      "bytes": 97,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctp/gateway/ctp_gateway.py",
+      "sha256": "7064f5782c6c57cb917e9e3b069f174d8968c384480e03f9406d4b450b861a80",
+      "bytes": 32339,
+      "git_mode": "100644"
+    }
+  ]
+}

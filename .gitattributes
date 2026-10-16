@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+Makefile text eol=lf
+
+# Preserve the byte hashes of immutable upstream snapshots on every platform.
+raw/sources/** -text

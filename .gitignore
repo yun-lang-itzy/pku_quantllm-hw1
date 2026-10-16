@@ -1,0 +1,22 @@
+# 临时文件和本机状态
+work/
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.obsidian/workspace*.json
+.obsidian/cache/
+
+# 本地凭据
+.env
+.env.*
+!.env.example
+
+# CTP demo local credentials and SDK flow files
+experiments/002-ctp-demo/config.local.json
+experiments/002-ctp-demo/flow/
+
+# 可再生成的实验产物；小型审计报告应显式保留在实验目录
+experiments/**/outputs/
+experiments/**/cache/

@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "name": "vnpy_ctastrategy",
+  "origin": "https://github.com/vnpy/vnpy_ctastrategy.git",
+  "commit": "7a8768de9784dda35a7b261a7ade1dbfbff50919",
+  "git_tree": "7e2f7963b6a7f9ab4088595a74a1fa7354915402",
+  "commit_time": "2026-10-05T22:22:15+08:00",
+  "downloaded": "2026-10-16",
+  "snapshot_root": "raw/sources/vnpy_ctastrategy",
+  "method": "shallow Git clone followed by complete git archive export; no upstream files modified",
+  "files": [
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha256": "7ae381059bcfaeab7f1b2de4a665f6696c80c8c5e4f2a3da69297a66b3dbe99f",
+      "bytes": 750,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "sha256": "53e9b76d102b27c42e6ba884704f68992acff958bfedb1853564f496e3838e25",
+      "bytes": 367,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "e0fd3a512ee2b5d732ebcd8b2470e5db13f62b4d19fac79a0d117e2b14cc3e7e",
+      "bytes": 178,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha256": "b4232baea3f482b7bd2445f14b07922db85980b21dc801f9554437f49af750ea",
+      "bytes": 304,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".github/workflows/pythonapp.yml",
+      "sha256": "6d9f813a6cc08ffb95ba0154b0c3f208eb692c12b223dc5cdc546da5b8a58269",
+      "bytes": 904,
+      "git_mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "106db951c28aee06c4c66d06c7fbd280156db0e174e3768df8cbe2d18ef0126b",
+      "bytes": 1845,
+      "git_mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1f069a40e1bd16d2a44c444fec85495d56ef4070c767072c3099ac9b40d2f294",
+      "bytes": 2662,
+      "git_mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "81294e5bcba945564df8586f1d789b016001b7b43eb4de97736679dd882cf191",
+      "bytes": 1087,
+      "git_mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha256": "cdd69edc6d45539374e362e29a22a4cabe35ab7abde8786440a086fb940fa20a",
+      "bytes": 916,
+      "git_mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "604a87ef110c50e80b89e8a8fc902897f6348367a20d514bc9622e1fce706e91",
+      "bytes": 2518,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "ae2b630c869d84b69d2762bd8247e89a388f11804d2245c0dc2a12f504c29266",
+      "bytes": 1433,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_backtesting.py",
+      "sha256": "729b1fdcd3e87dd2fb5599c2faf14b68e2ebc3c58e128431b7e639fc21252110",
+      "bytes": 15301,
+      "git_mode": "100644"
+    },
+    {
+      "path": "tests/test_cta_engine.py",
+      "sha256": "168bafadc7abcfce686fc7a060a29c7546406c324e6815dc7c8dfba3d3def5bf",
+      "bytes": 11432,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/__init__.py",
+      "sha256": "90c0af479268689d130fa61d8aa9ee8df4d887c02874a8c2adb372edc9df2c0a",
+      "bytes": 2195,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/backtesting.py",
+      "sha256": "e8743c2310777f91eba121557ebac1036cd5843afbbd7cdeb54dc6ed8dff155e",
+      "bytes": 42693,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/base.py",
+      "sha256": "2e6ec53db7bdb82538b9ebeb3430382b861e63bcfa4a2ecfbf52ffd5f1b3fae3",
+      "bytes": 1412,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/engine.py",
+      "sha256": "f4d70334efd0a8c748e9ebd02c8a0273c57ec38a85c54cd86a1d2132e4835d56",
+      "bytes": 33695,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/__init__.py",
+      "sha256": "374b098b5ba8f30fc5f3ef244a6b8eebe5dbf3bbd426ed5196813a47212c4b58",
+      "bytes": 267,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/build_hook.py",
+      "sha256": "292df42d834c9202fa8d16be62a68919bdf097edc15b53baf7e80d2772380166",
+      "bytes": 1086,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/en/LC_MESSAGES/vnpy_ctastrategy.po",
+      "sha256": "858e623aa19db8fe7967e1b716ecdd2ee1d1ed803311c11ed317080eaeb96896",
+      "bytes": 12107,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/generate_mo.bat",
+      "sha256": "0391d1d52406642ddc756f6d4167afffb20ebf2f2ad19feaecca4de545c23c01",
+      "bytes": 163,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/generate_pot.bat",
+      "sha256": "4f18d40b9252afb23dff9f8df136ddff758ff1d3148d68d808d7aec4926585d3",
+      "bytes": 177,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/locale/vnpy_ctastrategy.pot",
+      "sha256": "cb11f3a11ce4426074e2b69d0d1e758d3dc7bec6ba250f572eca077193474883",
+      "bytes": 9176,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/__init__.py",
+      "sha256": "54646b3bcfa3bb9ebfd6ccf0db9e066b961a764498dca1008b0a49fd96d8d1c6",
+      "bytes": 25,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/atr_rsi_strategy.py",
+      "sha256": "b71ecf36e51e53dec8610c72680cd01435caad8b880869ae039f4111537dc1f0",
+      "bytes": 3767,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/boll_channel_strategy.py",
+      "sha256": "4a8f717506c68ea46138ccca13491aa8e5b6336a71ce2d0dd3e0d3faa3b46332",
+      "bytes": 3785,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/double_ma_strategy.py",
+      "sha256": "3d62b0f0cf535a67672619dfe2b76f41ea8c02f5ebaaa069b05be30d43d7ddfa",
+      "bytes": 2983,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/dual_thrust_strategy.py",
+      "sha256": "9ac4eaa63030e6a4b7a66d1003a18aedb3c588658cb77ad646ffe6e378490903",
+      "bytes": 4203,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/king_keltner_strategy.py",
+      "sha256": "468deb47b9291b1af684da65d964e3ff4b01b35bebc9a6d1cabaf0858b2ec471",
+      "bytes": 4598,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/multi_signal_strategy.py",
+      "sha256": "788c9138db159408a6d16de63f50ac30c6b9a5e28ecf966450270efc03fdaab1",
+      "bytes": 6430,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/multi_timeframe_strategy.py",
+      "sha256": "574247e65e7dbdce8ebdc3eee37fb1107c0ba39c8392d05fbfb0877e43ad25ff",
+      "bytes": 3804,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/test_strategy.py",
+      "sha256": "4edf0d6106a97e7c3a3783fc3c6b372d8ee6f3276e40fcf8904273de5a845298",
+      "bytes": 3634,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/strategies/turtle_signal_strategy.py",
+      "sha256": "ad8ed8bcfb4e69a4a5cd8db38bfde8981cb3660957ad537fc10d59b99887bffe",
+      "bytes": 4584,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/template.py",
+      "sha256": "6fd1d64133ccde02a527adc4a0865c5cf96defa035ae254e18f2c6242e81737e",
+      "bytes": 13789,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/ui/__init__.py",
+      "sha256": "4d8387cf6268666ea33c0b4156b444e3c043e8e848d9d35713a3e993c8e17de9",
+      "bytes": 90,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/ui/cta.ico",
+      "sha256": "1d24faedb99e550658c74b8cb6bd7789700a7a05bb4930f0b43a631f7f94c745",
+      "bytes": 67646,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/ui/rollover.py",
+      "sha256": "a1f893fea2813f72ee9869cddcfd17a91e78c2d51b04b2d7faccf42c9182307c",
+      "bytes": 9645,
+      "git_mode": "100644"
+    },
+    {
+      "path": "vnpy_ctastrategy/ui/widget.py",
+      "sha256": "6289e7f83ede6bb73bf9c9cc02548457597ee1574979a60251ac3807f7d06f02",
+      "bytes": 18589,
+      "git_mode": "100644"
+    }
+  ]
+}
